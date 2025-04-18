@@ -21,5 +21,37 @@ Ensure you have **Python 3.8+** installed. Then install the following dependenci
 pip install torch torchvision torchaudio
 pip install ultralytics
 pip install opencv-python-headless
+```
+---
+
+## 🚀 How to Run
+- Place your video (e.g., fightclip.mp4) in the same folder as the script.
+
+- Ensure all dependencies are installed.
+
+- Run the script using:
+
+bash
+Copy
+Edit
+python main.py
+
+-A window will open showing the video with detections. Press q to exit.
+
+---
+
+## 🧠 Model
+The model used is yolov8n.pt, a lightweight YOLOv8 model.
+
+It is loaded using the Ultralytics YOLO API.
+
+---
+
+## 📦 Future Improvements
+Train a custom YOLOv8 model specifically for "fight", "accident", and "loitering" classes.
+
+Add sound or email-based alerting system.
+
+Deploy the system for real-time CCTV streams.
 
 ---
